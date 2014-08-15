@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<input type="button" value="Get Quote!" onclick="getQuote()" />
+		
+<ul id="responseList"</ul>
+		
+<script type="text/javascript">
+		
+//JavaScript AJAX code here
+		
+//getQuote function - send request to localhost:3000/quote
+//get response and append to page		
+function getQuote()
+{
+	$.get('http:localhost:3000/quote', handleResponse);
+}
+				
+/**********************************************/
+		
+//This function handles the server response
+		
+function handleResponse(response)		
+{
+	appendResponse(response);
+}
+
+//auxiliary function to append resonses from server
+function appendResponse(response)
+{
+	var node=document.createElement("LI");
+	var textnode=document.createTextNode(response);
+	node.appendChild(textnode);
+	document.getElementById("responseList").appendChild(node);
+}
+		
+</script>
+			
+</body>
+</html>
