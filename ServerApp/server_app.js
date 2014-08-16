@@ -3,7 +3,7 @@
 // and returns a random quote in JSON format.
 ////////////////////////////////////////////////////////////
 
-var express = require('./node_modules/express');
+var express = require('./express');
 var server = express(); 
 var fs  = require("fs"); //file stream for reading the quote file
 var util = require('util'); //define util
