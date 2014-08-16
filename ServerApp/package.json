@@ -4,7 +4,8 @@
   "description": "Quote server app",
   "main": "server_app.js",
   "scripts": {
-    "test": "node server_app.js"
+    "test": "node server_app.js",
+    "start": "node server_app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.8.4"
+  },
+  "subdomain": "dimanememets1986-ServerApp",
+  "engines": {
+    "node": "0.10.x"
   }
 }
