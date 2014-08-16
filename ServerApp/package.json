@@ -1,0 +1,34 @@
+{
+  "name": "ServerApp",
+  "subdomain": "dimanememets1986-ServerApp",
+  "scripts": {
+    "start": "server_app.js"
+  },
+  "version": "0.0.0-2",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "utils-merge": "*",
+    "serve-static": "*",
+    "finalhandler": "*",
+    "methods": "*",
+    "debug": "*",
+    "depd": "*",
+    "parseurl": "*",
+    "accepts": "*",
+    "type-is": "*",
+    "fresh": "*",
+    "range-parser": "*",
+    "proxy-addr": "*",
+    "escape-html": "*",
+    "cookie-signature": "*",
+    "cookie": "*",
+    "send": "*",
+    "vary": "*",
+    "qs": "*",
+    "buffer-crc32": "*",
+    "media-typer": "*",
+    "path-to-regexp": "*"
+  }
+}

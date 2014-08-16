@@ -12,7 +12,8 @@ var util = require('util'); //define util
 //quote_file - file containing multiple quotes
 var quote_file='./Quotes.TXT';
 
-var listen_port = 3000; 
+var port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var ip_address = process.env.OPENSHIFT_NODEJS_IP || '192.168.1.19'
 
 //constant array of quotes.
 //will be used in case no file available.
@@ -62,8 +63,8 @@ server.get('/quote', function(req, res) {
 });
 
 //listen on http://localhost:3000
-var server = server.listen(listen_port, function() {
-    util.log('Server listening on port ' +  listen_port);
+var server = server.listen(port, ip_address,function() {
+    util.log('Server listening on host: ' + ip_address + ' ,port: ' +  port);
 });
 
 

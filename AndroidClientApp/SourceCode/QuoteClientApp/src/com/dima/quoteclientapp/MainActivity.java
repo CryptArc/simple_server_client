@@ -54,7 +54,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public HttpUriRequest getHttpRequestMethod() {
-				return new HttpGet("http://192.168.1.19:3000/quote");
+				return new HttpGet("http://dimanememets1986-serverapp.nodejitsu.com:80/quote");
 			}
 
 			@Override
