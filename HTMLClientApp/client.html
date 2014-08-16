@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- include jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- include external CSS -->
+<link rel="stylesheet" type="text/css" href="client_style.css">
 </head>
 
 <body>
 
-<input type="button" value="Get Quote!" onclick="getQuote()" />
-		
-<ul id="responseList"</ul>
-		
+<p align="center">
+
+<button class="button" onclick="getQuote()"/>Get Quote!</button>		
+<ul class="ul" id="responseList"</ul>
+
+</p>
+
+<!-- JS code to handle server request/response  -->
 <script type="text/javascript">
 		
-//JavaScript AJAX code here
-		
-//getQuote function - send request to localhost:3000/quote
-//get response and append to page		
+//send request to localhost:3000/quote		
 function getQuote()
 {
 	$.get('http:localhost:3000/quote', handleResponse);
 }
-				
-/**********************************************/
 		
-//This function handles the server response
-		
+//callback for server response:
+//appends response to page
 function handleResponse(response)		
-{
-	appendResponse(response);
-}
-
-//auxiliary function to append resonses from server
-function appendResponse(response)
 {
 	var node=document.createElement("LI");
 	var textnode=document.createTextNode(response);
