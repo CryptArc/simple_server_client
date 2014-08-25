@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13F6731D-DCE5-4034-8B34-1CF6E6D86342</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuoteIOSClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F88AF3A9-1C63-4912-857A-843F316DA47B</key>
+		<string>https://github.com/dimanem/simple_server_client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOSClientApp/QuoteIOSClient/QuoteIOSClient.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F88AF3A9-1C63-4912-857A-843F316DA47B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dimanem/simple_server_client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F88AF3A9-1C63-4912-857A-843F316DA47B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F88AF3A9-1C63-4912-857A-843F316DA47B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>simple_server_client</string>
+		</dict>
+	</array>
+</dict>
+</plist>
